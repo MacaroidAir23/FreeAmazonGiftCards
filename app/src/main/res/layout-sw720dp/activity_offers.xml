@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/giftCards"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gift_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:paddingBottom="4dp"
+                    android:id="@+id/rateUs"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:text="Rate Us"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/btn_simple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/share"
+                android:src="@drawable/btn_invite_friends"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="Complete offers to get coins"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/bestOffers"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/offer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/awesomeOffers"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/offer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="Watch video to get coins"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/bestVideo"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/video_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/coolVideo"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/video_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/interestingVideo"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/video_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/beautifulVideo"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/video_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/awesomeVideo"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/video_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ticketcsGame"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:text="Tickets Game"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/btn_tickets"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/banner" />
+    </LinearLayout>
+
+</FrameLayout>

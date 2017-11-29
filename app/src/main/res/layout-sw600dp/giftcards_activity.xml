@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:id="@+id/card50"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/card50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/card75"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/card75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/card100"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/card100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/card150"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/card150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/card200"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/card200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/banner" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AmazonGiftCards.iml" filepath="$PROJECT_DIR$/AmazonGiftCards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreeAmazonGiftCards.iml" filepath="$PROJECT_DIR$/FreeAmazonGiftCards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreeAmazonGiftCards-master.iml" filepath="$PROJECT_DIR$/FreeAmazonGiftCards-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreeAmazonGiftCards-master.iml" filepath="$PROJECT_DIR$/FreeAmazonGiftCards-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
